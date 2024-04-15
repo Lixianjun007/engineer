@@ -1,14 +1,14 @@
-api编写
+# api编写
 
 @Author:  lixianjun  /  mobile: 17621753088
 
 @E-mail:  lixianjun50@icloud.com
 
-数据存储形式：将csv内的数据，读取到内存中，无数据库载体
+## 数据存储形式：将csv内的数据，读取到内存中，无数据库载体
 
-产出五个接口：
+## 产出五个接口：
 
-### 获取缺量数据
+### 获取全量数据
 GET http://localhost:8080/allData
 
 ### 单条记录的详情，此返回对象增加【距离】字段
